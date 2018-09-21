@@ -1,0 +1,36 @@
+{
+  "name": "git-repos-list",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode=development -w",
+    "start": "webpack-dev-server --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/priyankacheema/git-repos-list.git"
+  },
+  "author": "Priyanka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/priyankacheema/git-repos-list/issues"
+  },
+  "homepage": "https://github.com/priyankacheema/git-repos-list#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.1.0",
+    "@babel/core": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "html-webpack-plugin": "^3.2.0",
+    "prettier": "^1.14.3",
+    "webpack": "^4.19.1",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.8"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.0.0",
+    "es6-promise": "^4.2.5",
+    "isomorphic-fetch": "^2.2.1"
+  }
+}
